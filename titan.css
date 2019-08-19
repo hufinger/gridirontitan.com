@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding 0;
+}
+
+.contact_page{
+    margin-top: 100px;
+    text-transform: capitalize;
+    transition-duration: all 4s ease-in-out;
+    text-align: center;
+}
+
+.contact_form{
+    text-align: center;
+}
+
+.contact_page h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.contact_page h2{
+    font-size: 24px;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease_in_out
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: none;
+    outline: none;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
