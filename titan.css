@@ -1,6 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: #0C2340;
+    font-family: 'Orbitron', sans-serif;
+}
+
+nav img{
+    height: 15%;
+    width: 15%;
+}
+
+.nav_links{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    list-style: none;
+}
+
+.nav_links a{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+
+.mobile_menu div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease
+}
+
+.mobile_menu{
+    display: none;
+}
+
 body{
     margin: 0;
-    padding 0;
+    padding: 0;
+}
+
+#Contact_Us{
+    background-image: url(Logo%20Desgin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contact_page{
@@ -31,7 +85,7 @@ form{
 .form-control{
     width: 600px;
     background: transparent;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #0C2340;
     color: white;
     font-size: 18px;
     margin-bottom: 16px;
@@ -44,7 +98,7 @@ input{
 }
 
 form .submit{
-    background: #ff5722;
+    background: #0C2340;
     border-color: transparent;
     color: white;
     font-size: 20px;
@@ -55,6 +109,41 @@ form .submit{
 }
 
 form .submit:hover{
-    background-color: #f44336;
+    background-color: #418FDE;
     cursor: pointer;
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+footer{
+    background-color: #0C2340;
+    width: 100%;
+    padding: 22px 0px;
+
+    text-align: center;
+    
+}
+
+footer ul li{
+    display: inline-block;
+    padding-left: 60px;
+    list-style: none;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Orbitron', sans-serif;
+    width: 100%;
+
 }
